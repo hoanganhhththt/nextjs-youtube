@@ -4,7 +4,7 @@ import { users } from "@/app/ulti/db";
 export function GET(_, response) {
   const { id } = response.params;
   const user = users.find((item) => item.id === id);
-  return NextResponse.json({ user });
+  return NextResponse.json({ user, code: '00' });
 }
 
 export async function POST(req, res) {

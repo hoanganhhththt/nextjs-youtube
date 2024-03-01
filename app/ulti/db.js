@@ -40,5 +40,12 @@ export const users = [
     "age": 29,
     "email": "hale4@gmail.com",
     "password": "123456"
+  },
+  {
+    "id": 7,
+    "name": "hale 7",
+    "age": "27",
+    "email": "haha7@gmail.com",
+    "password": "123456"
   }
 ];
